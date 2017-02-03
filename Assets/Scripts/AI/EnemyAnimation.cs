@@ -65,8 +65,6 @@ public class EnemyAnimation : MonoBehaviour {
 		if (spriteAnimation != null) {
 			spinTimer = spriteAnimation.spinTimer;
 			resetSpinTimer = spinTimer;
-
-			Debug.Log ("POBRALEM");
 		}
 
 	}

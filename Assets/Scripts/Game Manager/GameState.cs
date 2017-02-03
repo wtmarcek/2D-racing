@@ -34,7 +34,6 @@ public class GameState : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print (CheckpointController.currentLap);
 
 		if (!gameBeginning) {
 			EnemyMovement.raceStarted = true;

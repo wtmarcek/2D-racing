@@ -5,7 +5,6 @@ public class Checkpoints : MonoBehaviour {
 
 	private Transform playerTransform;
 	private Transform enemyTransform;
-	private Transform trans;
 
 	private CheckpointController checkpointController;
 
@@ -16,12 +15,10 @@ public class Checkpoints : MonoBehaviour {
 		checkpointController = playerTransform.GetComponent<CheckpointController> ();
 
 		enemyTransform = GameObject.FindGameObjectWithTag ("Enemy").transform;
-
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		print (gameObject.name);
 	}
 
 	void OnTriggerEnter(Collider other){
@@ -32,7 +29,7 @@ public class Checkpoints : MonoBehaviour {
 
 		//Debug.Log (playerTransform.GetComponent<CheckpointController> ().checkpointArray.Length);
 
-		if (transform == checkpointController.checkpointArray [CheckpointController.currentCheckpoint].transform) {
+		if (transform.position == checkpointController.checkpointArray [CheckpointController.currentCheckpoint].transform.position) {
 			Debug.Log ("We are at checkpoint = " + CheckpointController.currentCheckpoint);
 
 			if (CheckpointController.currentCheckpoint + 1 < playerTransform.GetComponent<CheckpointController> ().checkpointArray.Length) {
