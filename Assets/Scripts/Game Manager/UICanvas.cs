@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UICanvas : MonoBehaviour {
 
+	public Button restart;
 	private Canvas uiCanvas;
 
 	// Use this for initialization
@@ -12,9 +14,5 @@ public class UICanvas : MonoBehaviour {
 	
 		uiCanvas.enabled = true;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }

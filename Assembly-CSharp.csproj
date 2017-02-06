@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\GUI\Items.cs" />
      <Compile Include="Assets\Scripts\GUI\Lap.cs" />
      <Compile Include="Assets\Scripts\GUI\Menu.cs" />
+     <Compile Include="Assets\Scripts\GUI\Restart.cs" />
      <Compile Include="Assets\Scripts\GUI\Speed.cs" />
      <Compile Include="Assets\Scripts\GUI\TextUI.cs" />
      <Compile Include="Assets\Scripts\Game Manager\CheckpointController.cs" />

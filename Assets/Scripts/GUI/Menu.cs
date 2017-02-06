@@ -10,6 +10,8 @@ public class Menu : MonoBehaviour {
 
 	public Canvas menu;
 	public GameObject hud;
+	public GameObject mainMenu;
+	public GameObject tutorialMenu;
 	public Button start;
 	public Button exit;
 	private Renderer hudRenderer;
@@ -67,6 +69,15 @@ public class Menu : MonoBehaviour {
 				audioSource.mute = true;
 			}
 		}
+	}
+
+	public void TutorialButton(){
+		mainMenu.SetActive (false);
+		tutorialMenu.SetActive (true);
+	}
+	public void BackButton(){
+		mainMenu.SetActive (true);
+		tutorialMenu.SetActive (false);
 	}
 
 	public void StartButton(){

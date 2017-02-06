@@ -46,6 +46,7 @@ public class PlayerProperties : MonoBehaviour {
 	private GameObject playerGO;
 
 
+
 	// Use this for initialization
 	void Start () {
 		trans = GetComponent<Transform> ();
@@ -87,8 +88,6 @@ public class PlayerProperties : MonoBehaviour {
 				this.playerState = PlayerState.CarNormal;
 				this.changeState = true;
 			}
-
-
 		}
 
 		if (hasTrap && gameObject.tag == "Player") {
@@ -183,7 +182,4 @@ public class PlayerProperties : MonoBehaviour {
 			}
 		}
 	}
-
-
-
 }
