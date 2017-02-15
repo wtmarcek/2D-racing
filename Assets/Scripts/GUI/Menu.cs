@@ -91,6 +91,10 @@ public class Menu : MonoBehaviour {
 		audioSource.mute = true;
 	}
 
+	public void ExitButton(){
+		Application.Quit ();
+	}
+
 	void Highscore(){
 
 		highscoreTxt.text = "Highscore: " + scoreboard.highscore;

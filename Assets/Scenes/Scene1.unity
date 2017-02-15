@@ -1644,7 +1644,7 @@ Prefab:
     - target: {fileID: 114000013056071824, guid: de1ff469e9c9f5a4989a7aa8af8ac4a9,
         type: 2}
       propertyPath: powerUpType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: de1ff469e9c9f5a4989a7aa8af8ac4a9, type: 2}
@@ -4088,7 +4088,7 @@ Transform:
   m_GameObject: {fileID: 413578728}
   m_LocalRotation: {x: -0, y: 0.19902919, z: -0, w: 0.97999364}
   m_LocalPosition: {x: -0.4, y: 0.5595312, z: -10.85}
-  m_LocalScale: {x: 1, y: 1, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 8.80732}
   m_Children: []
   m_Father: {fileID: 785833606}
   m_RootOrder: 5
@@ -6964,7 +6964,7 @@ Transform:
   m_GameObject: {fileID: 702863782}
   m_LocalRotation: {x: -0, y: 0.19902919, z: -0, w: 0.97999364}
   m_LocalPosition: {x: -6.38, y: 0.5595312, z: -10.21}
-  m_LocalScale: {x: 1, y: 1, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 8.606538}
   m_Children: []
   m_Father: {fileID: 785833606}
   m_RootOrder: 6
@@ -10319,7 +10319,7 @@ Prefab:
     - target: {fileID: 114000013056071824, guid: de1ff469e9c9f5a4989a7aa8af8ac4a9,
         type: 2}
       propertyPath: powerUpType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: de1ff469e9c9f5a4989a7aa8af8ac4a9, type: 2}
@@ -14794,7 +14794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1421183575
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14847,7 +14847,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 750, y: 800}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -16989,7 +16989,7 @@ RectTransform:
   m_GameObject: {fileID: 1656523880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.1287456, z: 1}
   m_Children: []
   m_Father: {fileID: 1421183575}
   m_RootOrder: 0
@@ -21129,12 +21129,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: f7b1d9031591f2d4289105e074705eda, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 1421183579}
+        m_MethodName: ExitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

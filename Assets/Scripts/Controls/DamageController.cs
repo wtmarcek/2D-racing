@@ -10,7 +10,6 @@ public class DamageController : MonoBehaviour {
 	public static bool enemyDamage = false;
 
 	public Transform start;
-	private Transform trans;
 	private SpawnController spawnController;
 	private PlayerMovement playerMovement;
 	private SpriteAnimation spriteAnimation;
@@ -21,7 +20,6 @@ public class DamageController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		trans = GetComponent<Transform> ();
 		resetHealth = health;
 
 		if (gameObject.tag == "Enemy") {
@@ -59,7 +57,7 @@ public class DamageController : MonoBehaviour {
 			if (gameObject.tag == "Player") {
 
 				spawnController.activeRespawnTimer = true;
-				trans.position = start.position;
+				transform.position = start.position;
 			}
 
 			if (gameObject.tag == "Enemy") {
@@ -72,7 +70,7 @@ public class DamageController : MonoBehaviour {
 
 
 				if (enemyAnimation.explode == false) {
-					trans.position = spawnController.currentTrackPosition;
+					transform.position = spawnController.currentTrackPosition;
 
 				}
 			}
